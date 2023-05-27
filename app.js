@@ -19,7 +19,6 @@ app.get('/contato/:_id',  (req, res) => {
 
 app.post('/contato',  (req, res) => {
   const {name , age} = req.body;
-  const id = pessoa.length + 1;
   pessoa.push({
     name,
     age
